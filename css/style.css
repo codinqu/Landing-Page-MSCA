@@ -1,0 +1,58 @@
+.topBar {
+background-color: rgb(21, 54, 23);
+}
+
+.topBar img {
+    height: 57px;
+    padding-left: 24px;
+    padding-top: 8px;
+}
+
+.welcome {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(196, 158, 88);
+}
+
+.welcome h3 {
+    font-size: 27px;
+    padding-top: 12px;
+    padding-right: 6px;
+}
+
+.welcome h5 {
+    font-size: 12px;
+}
+
+.pfp {
+    background-color: rgb(248, 238, 221);
+}
+.pfpImage img {
+    max-width: 100%;
+    height: 273px;
+    padding-top: 29px;
+    padding-left: 6px;
+}
+
+.aboutMe img {
+padding-bottom: 12px;
+}
+
+.aboutMe {
+    text-align: center;
+    font-size: 14px;
+    font-family: serif;
+    padding-top: 40px;
+    color: rgb(105, 79, 29);
+}
+
+.aboutMe h3 {
+    color: rgb(165, 107, 41);
+}
+
+.aboutMe button {
+    border-radius: 9px;
+    width: 73px;
+    background-color: rgb(18, 51, 18);
+    color: rgb(216, 204, 139);
+}
