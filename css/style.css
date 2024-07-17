@@ -25,13 +25,29 @@ background-color: rgb(21, 54, 23);
 }
 
 .pfp {
-    background-color: rgb(248, 238, 221);
+    background-color: rgb(250, 222, 167);
 }
 .pfpImage img {
     max-width: 100%;
     height: 273px;
     padding-top: 29px;
     padding-left: 6px;
+}
+
+.navBar {
+    text-align: center;
+    background-color: rgb(250, 222, 167);
+}
+
+.navBar button {
+    background-color: rgb(165, 160, 89);
+    margin-top: 15px;
+    margin-bottom: 18px;
+    border-radius: 6px;
+    color: rgb(62, 78, 34);
+    width: 74px;
+    font-size: 13px;
+    font-family: serif;
 }
 
 .aboutMe img {
@@ -43,11 +59,11 @@ padding-bottom: 12px;
     font-size: 14px;
     font-family: serif;
     padding-top: 40px;
-    color: rgb(105, 79, 29);
+    color: rgb(136, 103, 41);
 }
 
 .aboutMe h3 {
-    color: rgb(165, 107, 41);
+    color: rgb(122, 78, 27);
 }
 
 .aboutMe button {
@@ -58,5 +74,60 @@ padding-bottom: 12px;
 }
 
 .basics img {
-    
+    padding-top: 9px;
+}
+
+.basics {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.basics ul {
+    list-style-type: circle;
+    font-size: 14px;
+    text-align: left;
+    color: rgb(110, 83, 33);
+}
+
+.basics h3 {
+    font-size: 22px;
+    padding-top: 16px;
+    color: rgb(122, 78, 27);
+}
+
+.knowledge {
+    background-color: rgb(250, 222, 167);
+}
+
+.codeImage img {
+    padding-top: 59px;
+}
+
+.codeImage p {
+    font-size: 9px;
+    text-align: right;
+}
+
+.project {
+    background-color:rgb(21, 54, 23) ;
+}
+
+.project img {
+    height: 43px;
+}
+
+.projectS img {
+    padding-left: 73px;
+}
+
+.projectTitle {
+    margin-top: 12px;
+}
+
+.projectTitle h3 {
+    color: rgb(196, 158, 88);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 31px ;
+    text-align: center;
+    margin-top: -7px;
 }
