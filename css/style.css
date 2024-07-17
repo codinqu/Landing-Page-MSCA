@@ -110,6 +110,7 @@ padding-bottom: 12px;
 
 .project {
     background-color:rgb(21, 54, 23) ;
+    padding: 9px;
 }
 
 .project img {
@@ -117,7 +118,7 @@ padding-bottom: 12px;
 }
 
 .projectS img {
-    padding-left: 73px;
+    padding-left: 63px;
 }
 
 .projectTitle {
