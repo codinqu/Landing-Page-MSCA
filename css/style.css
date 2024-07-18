@@ -25,7 +25,7 @@ background-color: rgb(21, 54, 23);
 }
 
 .pfp {
-    background-color: rgb(250, 222, 167);
+    background-color:rgb(238, 207, 144);
 }
 .pfpImage img {
     max-width: 100%;
@@ -36,7 +36,7 @@ background-color: rgb(21, 54, 23);
 
 .navBar {
     text-align: center;
-    background-color: rgb(250, 222, 167);
+    background-color: rgb(238, 207, 144);
 }
 
 .navBar button {
@@ -96,7 +96,7 @@ padding-bottom: 12px;
 }
 
 .knowledge {
-    background-color: rgb(250, 222, 167);
+    background-color: rgb(238, 207, 144);
 }
 
 .codeImage img {
@@ -131,4 +131,91 @@ padding-bottom: 12px;
     font-size: 31px ;
     text-align: center;
     margin-top: -7px;
+}
+
+.squares {
+    padding: 24px;
+    background-color:rgb(81, 116, 84) ;
+    margin-top: -6px;
+}
+
+.squareTwo img {
+    margin-top: 40px;
+}
+
+.squareThree img {
+    margin-top: 40px;
+}
+
+.endBar {
+    background-color:rgb(21, 54, 23) ;
+}
+
+.endMedia img {
+    height: 34px;
+    padding-left: 8px;
+}
+
+@media (min-width: 576px) {
+    .topBar img {
+        padding-left: 59px;
+    }
+
+    .pfpImage img {
+        height: 288px;
+        padding-top: 25px;
+        padding-left: 53px;
+    }
+
+    .aboutMe {
+        padding-right: 69px;
+    }
+
+    .basics {
+        padding: 34px;
+    }
+
+    .codeImage img {
+        padding-top: 73px;
+        height: 265px;
+        padding-left: 9px;
+    }
+
+    .codeImage p {
+        font-size: 11px;
+        text-align: right;
+        padding-right: 25px;
+    }
+
+    .projectS {
+        padding-left: 68px;
+    }
+
+    .squares {
+        padding: 52px;
+    }
+
+    .endMedia {
+        padding-left: 47px;
+    }
+}
+
+@media (min-width: 768px) {
+    .topBar img {
+        padding-left: 87px;
+    }
+
+    .pfpImage img {
+        height: 339px;
+        padding-left: 75px;
+    }
+
+    .aboutMe {
+        padding-right: 109px;
+        font-size: 16px;
+    }
+
+    .basics {
+        padding: 52px;
+    }
 }
