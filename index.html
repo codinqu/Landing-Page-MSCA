@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Welcome</title>
 </head>
 <body>
@@ -13,7 +16,7 @@
             <div class="ravenOne col-4">
                 <img
                 class="img-fluid"
-                src="https://pngimg.com/uploads/raven/raven_PNG6.png" alt="raven1">
+                src="./imgs/raven-removebg-preview.png" alt="raven1">
             </div>
             <div class="welcome col-4">
                 <h3>Welcome</h3>
@@ -22,17 +25,25 @@
             <div class="ravenTwo col-4">
                 <img 
                 class="img-fluid"
-                src="./imgs/raven.png" alt="raven2">
+                src="./imgs/ravenremoveright.png" alt="raven2">
             </div>
         </div>
     </div>
     <div class="NavBar container-fluid">
         <div class="row">
             <div class="navBar col-12">
-                <button>About Me</button>
-                <button>Languages</button>
-                <button>Projects</button>
-                <button>Socials</button>
+                <a href="#about">
+                    <button>About Me</button>
+                </a>
+                <a href="#languages">
+                    <button>Languages</button>
+                </a>
+                <a href="#projects">
+                    <button>Projects</button>
+                </a>
+                <a href="#socials">
+                    <button>Socials</button>
+                </a>
             </div>
         </div>
     </div>
@@ -43,12 +54,12 @@
                 class="img-fluid"
                 src="./imgs/pfpLand.jpg" alt="mainImage">
             </div>
-            <div class="aboutMe col-6">
+            <div class="aboutMe col-6" id="about">
                 <img
                 class="img-fluid"
                 src="https://clipground.com/images/black-vine-clipart-20.png" alt="vines">
                 <h3>Hey, I'm Bianca!</h3>
-                <p>I'm twenty-two years old and I love reading, video games and running! Check out my projects and contact information down below! Happy coding!</p>
+                <p>I'm a junior developer at the Mississippi Coding Academy and I love reading, video games and running! Check out my projects and contact information down below! Happy coding!</p>
                 <a href="https://github.com/codinqu?tab=repositories">
                     <button>Projects</button>
                 </a>
@@ -58,14 +69,15 @@
     </div>
     <div class=" knowledge container-fluid">
         <div class="row">
-            <div class="basics col-6">
+            <div class="basics col-6" id="languages">
                 <img
                 class="img-fluid"
                 src="https://clipground.com/images/black-vine-clipart-20.png" alt="vines2">
-                <h3>What Languages I'm Learning</h3>
+                <h3>What Languages And Frameworks I'm Learning</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>Bootstrap</li>
                 </ul>
             </div>
             <div class="codeImage col-6">
@@ -77,7 +89,7 @@
             </div>
         </div>
     </div>
-    <div class=" project container-fluid">
+    <div class=" project container-fluid" id="projects">
         <div class="row">
             <div class="projectS col-4">
                 <img 
@@ -116,7 +128,7 @@
     <div class="endBar container-fluid">
         <div class="row">
             <div class="col-4"></div>
-            <div class="endMedia col-4">
+            <div class="endMedia col-4" id="socials">
                 <a href="https://www.linkedin.com">
                     <img
                     class="img-fluid"
