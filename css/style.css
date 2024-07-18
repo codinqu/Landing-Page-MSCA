@@ -276,5 +276,18 @@ padding-bottom: 12px;
     .codeImage p {
         font-size: 13px;
     }
+
+    .projectS {
+        padding-left: 141px;
+    }
+
+    .squares {
+        padding: 111px;
+    }
+
+    .endMedia img {
+        height: 47px;
+        padding-left: 52px;
+    }
 }
 
