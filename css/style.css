@@ -4,7 +4,7 @@ background-color: rgb(21, 54, 23);
 
 .topBar img {
     height: 57px;
-    padding-left: 24px;
+    padding-left: 31px;
     padding-top: 8px;
 }
 
@@ -45,7 +45,7 @@ background-color: rgb(21, 54, 23);
     margin-bottom: 18px;
     border-radius: 6px;
     color: rgb(62, 78, 34);
-    width: 89px;
+    width: 83px;
     font-size: 13px;
     font-family: "Bona Nova SC", serif;
 }
@@ -56,7 +56,7 @@ padding-bottom: 12px;
 
 .aboutMe {
     text-align: center;
-    font-size: 14px;
+    font-size: 11px;
     font-family: "Bona Nova SC", serif;
     padding-top: 40px;
     color: rgb(136, 103, 41);
@@ -68,7 +68,7 @@ padding-bottom: 12px;
 
 .aboutMe button {
     border-radius: 9px;
-    width: 96px;
+    width: 63px;
     background-color: rgb(18, 51, 18);
     color: rgb(216, 204, 139);
 }
@@ -80,6 +80,7 @@ padding-bottom: 12px;
 .basics {
     text-align: center;
     font-family: "Bona Nova SC", serif;
+    margin-top: -35px;
 }
 
 .basics ul {
@@ -90,7 +91,7 @@ padding-bottom: 12px;
 }
 
 .basics h3 {
-    font-size: 22px;
+    font-size: 17px;
     padding-top: 16px;
     color: rgb(122, 78, 27);
 }
@@ -113,13 +114,6 @@ padding-bottom: 12px;
     padding: 9px;
 }
 
-.project img {
-    height: 43px;
-}
-
-.projectS img {
-    padding-left: 63px;
-}
 
 .projectTitle {
     margin-top: 12px;
@@ -134,31 +128,37 @@ padding-bottom: 12px;
 }
 
 .squares {
-    padding: 24px;
-    background-color:rgb(81, 116, 84) ;
-    margin-top: -6px;
+    background-color: rgb(34, 78, 36);
 }
 
-.squareTwo img {
-    margin-top: 40px;
+.squares img {
+    margin-top: 29px;
+    padding: 18px;
 }
 
-.squareThree img {
-    margin-top: 40px;
+.squares h3 {
+    font-size: 16px;
+    text-align: center;
+    font-family: serif;
+    color: rgb(196, 158, 88);
 }
 
 .endBar {
-    background-color:rgb(21, 54, 23) ;
+    background-color: rgb(21, 54, 23);
+    text-align: center;
 }
 
-.endMedia img {
-    height: 34px;
-    padding-left: 8px;
+.socialMed img {
+    height: 40px;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 @media (min-width: 576px) {
     .topBar img {
-        padding-left: 59px;
+        padding-left: 75px;
     }
 
     .pfpImage img {
@@ -187,22 +187,12 @@ padding-bottom: 12px;
         padding-right: 25px;
     }
 
-    .projectS {
-        padding-left: 68px;
-    }
 
-    .squares {
-        padding: 52px;
-    }
-
-    .endMedia {
-        padding-left: 47px;
-    }
 }
 
 @media (min-width: 768px) {
     .topBar img {
-        padding-left: 87px;
+        padding-left: 94px;
     }
 
     .pfpImage img {
@@ -215,37 +205,38 @@ padding-bottom: 12px;
         font-size: 16px;
     }
 
+    .aboutMe button {
+        width: 91px;
+    }
+
     .basics {
         padding: 52px;
     }
 
     .codeImage img {
         height: 277px;
-        padding-left: 50px;
+        padding-left: 72px;
     }
 
     .codeImage p {
         font-size: 12px;
-        padding-right: 59px;
+        padding-right: 73px;
     }
 
-    .projectS img {
-        padding-left: 132px;
+
+    .squares h3 {
+        font-size: 20px;
+        margin-bottom: 37px;
     }
 
-    .squares {
-        padding: 82px;
-    }
+ 
 
-    .endMedia img {
-        height: 43px;
-        padding-left: 19px;
-    }
+    
 }
 
 @media (min-width: 992px) {
     .topBar img {
-        padding-left: 132px;
+        padding-left: 143px;
     }
 
     .pfpImage img {
@@ -277,17 +268,132 @@ padding-bottom: 12px;
         font-size: 13px;
     }
 
-    .projectS {
-        padding-left: 141px;
+ 
+}
+
+@media (min-width: 1200px) {
+    .topBar img {
+        padding-left: 164px;
     }
 
-    .squares {
-        padding: 111px;
+    .pfpImage img {
+        height: 426px;
+        padding-left: 164px;
+        margin-top: 29px;
     }
 
-    .endMedia img {
-        height: 47px;
-        padding-left: 52px;
+    .aboutMe {
+        padding-right: 221px;
+        font-size: 17px;
+        padding-left: 39px;
+        margin-top: 34px;
+    }
+
+    .basics {
+        padding: 100px;
+        padding-left: 124px;
+    }
+
+    .codeImage img {
+        height: 376px;
+        padding-left: 105px;
+        margin-top: 7px;
+    }
+
+    .codeImage p {
+        font-size: 13px;
+        padding-right: 101px;
+    }
+
+    
+  
+}
+
+@media (min-width: 1400px){
+    .topBar img {
+        padding-left: 232px;
+        height: 87px;
+    }
+
+    .welcome h3 {
+        font-size: 38px;
+        padding-top: 12px;
+        padding-right: 6px;
+    }
+
+    .welcome h5 {
+        font-size: 17px;
+    }
+
+    .pfpImage img {
+        height: 426px;
+        padding-left: 204px;
+        margin-top: 23px;
+    }
+
+    .aboutMe {
+        padding-right: 204px;
+        font-size: 17px;
+        padding-left: 35px;
+        margin-top: 54px;
+    }
+
+    .aboutMe button {
+        width: 109px;
+    }
+
+    .basics {
+        padding-left: 136px;
+    }
+
+    .codeImage img {
+        margin-top: 29px;
+        padding-left: 192px;
+    }
+
+    .codeImage p {
+        padding-right: 274px;
+    }
+
+}
+
+@media (min-width: 1800px) {
+
+    .pfpImage img {
+        height: 478px;
+        padding-left: 204px;
+        margin-top: 23px;
+    }
+
+    .codeImage img {
+        margin-top: 29px;
+        padding-left: 257px;
+        height: 415px;
     }
 }
+
+.navBar :hover {
+    background-color: rgb(168, 194, 174);
+}
+
+.aboutMe button:hover {
+    background-color: rgb(168, 194, 174);
+}
+
+.socialMed img:hover {
+    background-color: rgb(168, 194, 174);
+}
+
+.squareOne a:hover {
+    background-color: rgb(168, 194, 174);
+}
+
+.squareTwo a:hover {
+    background-color: rgb(168, 194, 174);
+}
+
+.squareThree a:hover {
+    background-color: rgb(168, 194, 174);
+}
+
 
